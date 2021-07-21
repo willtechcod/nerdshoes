@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.erro{
+    color: #ff2800;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.success{
+    color: #0082c1;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+.Container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 98vh;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.FormLogin{
+    font-family: 'Roboto', sans-serif;
+    width: 380px;
+    color: #fff;
+    height: 350px;
+    margin: 20px auto;
+    box-shadow: 0 0 1em #CCCC;
+    padding: 20px;
+    border-radius: 15px;
+    background: rgba(0, 0, 0, 0.9);
+}
+
+h1{
+    color: #fff;
+    font-size: 10px;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.input{
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid green;
+    padding: 5px;
+    margin-top: 15px;
+    margin-bottom: 16px;
+    resize:vertical;
+    
+}
+
+.input:focus{
+    outline: none;
+    border: 1px solid green;
+}
+
+.bt{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    width: 100%;
+    color: #FFF;
+    padding: 7px 10px;
+    background: green;
+    border-radius: 6px;
+    cursor: pointer;
+
+}
+
+.bt:hover{
+    background: #3d683c;
+    color: #FFFF;
+}

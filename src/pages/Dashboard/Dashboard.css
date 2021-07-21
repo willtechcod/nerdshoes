@@ -1,0 +1,166 @@
+
+
+.bts{
+    width: 50px;
+    color: white;
+    background: rgb(53, 136, 108);
+    border-radius: 5px;
+}
+
+.bts:hover{
+    background: green;
+    color: white;
+}
+
+
+
+/*conteúdo relacionado menu a esquerda onde tem logo do admin */
+
+
+
+.clear{
+    clear: both;
+}
+
+.center{
+    
+    padding: 0 2%;
+    margin: 0 auto;
+}
+
+
+.header{
+    position: relative;
+    left: 300px;
+    padding: 10px 0;
+    background: rgba(0, 0,  0,  0.7);
+    width:calc(100% - 300px);
+}
+
+.loggout{
+    float: right;
+}
+
+.menu-btn{
+    float: left;
+    cursor: pointer;
+    font-size: 23px;
+    color: white;
+}
+
+.menu{
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 100%;
+    padding: 10px 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0,  0,  0.9);
+    float: left;
+    width: 300px;
+}
+
+.box-usuario{
+    text-align: center;
+}
+
+.avatar-usuario{
+    display: inline-block;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 3px solid #2f3d42;
+}
+
+.avatar-usuario i{
+    position: relative;
+    font-size: 60px;
+    color: #2f3d42;
+}
+
+.nome-usuario{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.nome-usuario p{
+    color: white;
+    font-size: 15px;
+    font-weight: normal;
+}
+/* conteúdo principal do painel */
+
+.w100{
+    width: 100%;
+}
+
+.w50{
+    width: 49%;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.content{
+    width: calc(100% - 300px);
+    position: relative;
+    left: 300px;
+    padding: 10px;
+}
+
+.box-content{
+    
+    background: #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px){
+    .menu{
+        display: none;
+    }
+    .content{
+        width: 100%;
+        left: 0;
+    }
+    .header{
+        left: 0;
+        width: 100%;
+    }
+}
+
+.items-menu{
+    margin-top: 30px;
+}
+
+
+.items-menu h2{
+    padding: 10px;
+    text-align: left;
+    font-weight: normal;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    border-bottom: 2px solid greenyellow;
+    background: green;
+}
+
+.items-menu a:hover{
+    color: green;
+}
+
+.items-menu a{
+    display: block;
+    padding: 8px;
+    font-weight: 300;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    border-bottom: 2px solid #435055;
+}

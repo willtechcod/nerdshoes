@@ -16,6 +16,8 @@ Gerenciar rotas paginas e URLs
 ### npm install react-router-dom
 ### import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
+Ultilizado para renderizar uma nova página sem recarregar toda a aplicação
+### npm install --save history@4.9.0
   
   
   
